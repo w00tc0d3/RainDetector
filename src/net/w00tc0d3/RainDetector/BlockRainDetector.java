@@ -20,7 +20,7 @@ public class BlockRainDetector extends Block {
 	@Override
 	@SideOnly(Side.CLIENT)
 	public void registerIcons(IconRegister iconRegister) {
-		this.blockIcon = iconRegister.registerIcon("minecraft:raindetector");
+		this.blockIcon = iconRegister.registerIcon("raindetector:raindetector");
 	}
 
 	@Override
