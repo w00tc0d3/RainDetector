@@ -29,7 +29,7 @@ public class BlockRainDetector extends Block {
 	}	
 	
 	@Override
-	public boolean hasTileEntity() {
+	public boolean hasTileEntity(int metadata) {
 		return true;
 	}
 	
